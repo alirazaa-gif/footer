@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        background-color: black;
+
+    }
+    .main{
+        background-color: white;
+       max-width: 900px;
+       width: 90%;
+        height: auto;
+        margin: auto;
+        margin-top:150px;
+        padding-bottom:30px ;
+    }
+    h3{
+        font-size: 15px;
+    }
+    
+    
+    .box{
+        max-width: 800px;
+        width: 100%;
+        height: auto;
+        background-color: black;
+        color: white;
+        margin: auto;
+        margin-top: 30px;
+          margin-bottom:30px ;
+        
+      
+    }
+    .lists a {
+        text-decoration: none;
+        color: rgb(102, 99, 94);
+        font-size:13px ;
+        margin-bottom: 10px;
+         display: flex;
+      
+     
+    }
+    .lists ul li{
+        font-size: 11px;
+        color: #aaa;
+       list-style: none;
+       padding-top: 3px;
+    }
+    .lists{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        flex-wrap: wrap;
+    
+    }
+    .mine{
+         display: flex;
+         justify-content: space-between;
+         gap: 15px;
+    }
+    @media(max-width: 600px){
+        .main{
+            margin-top: 50px;
+            width: 95%;
+            padding: 30px 20px;
+        }
+        h3{
+            margin-top: 0;
+            margin-left: 0;
+        }
+        .lists{
+            flex-direction: column;
+            padding: 20px ;
+            text-align: center;
+        }
+        .mine{
+            justify-content: center;
+        }
+    }
+</style>
+<body>
+    <div class="main">
+        <h3>WIX</h3>
+        <div class="box">
+          
+            <div class="lists">
+            <ul>
+                <a href="#">Company</a>
+
+                <li>about</li>
+                <li>contact</li>
+                <li>brand</li>
+                <li>quality & services</li>
+            </ul>
+            <ul>
+                <a href="#">Products</a>
+                <li>meet products</li>
+                <li>cheese products</li>
+                <li>dairy  product</li>
+                <li>diet food</li>
+                <li>proccesesd food</li>
+                <li>vegetables</li>
+                <li>fruits</li>
+            </ul>
+            <ul>
+               <div class="mine"> <a href="#">Turky</a> <a href="#">Malasiya</a> <a href="#">Dubai</a></div>
+      <li>33 500 Mersin city</li>
+      <li>+90 520 540 00 00</li>
+            </ul>
+            <ul>
+                <li>© 2023 Harasel</li>
+      <li>All Rights Reserved</li>
+            </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
